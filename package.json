@@ -1,0 +1,15 @@
+{
+  "name": "@lbdudc/mcp-uvl-analyzer",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol (MCP) plugin for analyzing UVL models.",
+  "type": "module",
+  "main": "index.js",
+  "author": "victor.lamas@udc.es",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.10.1",
+    "flamapy": "git+https://github.com/diverso-lab/flamapy.js.git#Issue-parse-function-results-on-proper-JS-objects",
+    "zod": "3.24.3",
+    "zod-to-json-schema": "3.24.5"
+  }
+}
