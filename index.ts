@@ -139,13 +139,13 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
 server.setRequestHandler(CallToolRequestSchema, async (request) => {
     const { name, arguments: args } = request.params;
 
-    const processUVLContent = async (uvlContent, operation) => {
+    const processUVLContent = async (uvlContent: string, operation: { (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (flamapy: any): any; (arg0: any): any; }) => {
         try {
             const flamapy = new Flamapy(uvlContent);
             await flamapy.initialize();
             return await operation(flamapy);
         } catch (error) {
-            throw new Error(`Error processing UVL content: ${error.message}`);
+            throw new Error(`Error processing UVL content: ${error instanceof Error ? error.message : String(error)}`);
         }
     };
 

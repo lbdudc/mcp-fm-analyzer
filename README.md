@@ -78,7 +78,7 @@ To use this with Claude Desktop, add the following to your `claude_desktop_confi
 ```json
 {
   "mcpServers": {
-    "uvl_analyzer": {
+    "uvl-analyzer": {
       "command": "npx",
       "args": [
         "-y",
