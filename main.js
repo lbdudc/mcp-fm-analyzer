@@ -3,7 +3,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { CallToolRequestSchema, ListToolsRequestSchema } from "@modelcontextprotocol/sdk/types.js";
 import { z } from "zod";
 import { zodToJsonSchema } from "zod-to-json-schema";
-import { Flamapy } from "flamapy";
+import { Flamapy } from "@lbdudc/flamapy.js";
 
 console.log = function () { }; // Disable console.log for cleaner output
 
