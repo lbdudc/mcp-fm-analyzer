@@ -1,6 +1,6 @@
 {
   "name": "@lbdudc/mcp-uvl-analyzer",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "A Model Context Protocol (MCP) plugin for analyzing UVL models.",
   "type": "module",
   "author": "victor.lamas@udc.es",
